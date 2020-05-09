@@ -4,4 +4,8 @@ if __name__ == "__main__":
     if op == '+':
         print('숫자 2개를 입력해주세요')
         a, b = input().split()
-        print(f'결과: {int(a)+ int(b)}')
+        print(f'결과: {int(a) + int(b)}')
+    elif op == '-':
+        print('숫자 2개를 입력해주세요')
+        a, b = input().split()
+        print(f'결과: {int(a) - int(b)}')
